@@ -1,4 +1,4 @@
-# Autodataset-Analysis
+# Auto dataset-Fuel EfficiencyAnalysis
 This exercise involves the Auto data set studied in the lab. Make sure that the missing values have been removed from the data.
 (a) Which of the predictors are quantitative, and which are qualitative?
 (b) What is the range of each quantitative predictor? You can answer this using the range() function.
