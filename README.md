@@ -1,11 +1,5 @@
 # Auto dataset-Fuel EfficiencyAnalysis
-This exercise involves the Auto data set studied in the lab. Make sure that the missing values have been removed from the data.
-(a) Which of the predictors are quantitative, and which are qualitative?
-(b) What is the range of each quantitative predictor? You can answer this using the range() function.
-(c) What is the mean and standard deviation of each quantitative predictor?
-(d) Now remove the 10th through 85th observations. What is the range, mean, and standard deviation of each predictor in the subset of the data that remains?
-(e) Using the full data set, investigate the predictors graphically using scatterplots or other tools of your choice. Create some plots highlighting the relationships among the predictors. Comment on your findings.
-(f) Suppose that we wish to predict gas mileage (mpg) on the basis of the other variables. Do your plots suggest that any of the other variables might be useful in predicting mpg? Justify your answer.
+The Auto dataset was analyzed after removing missing values. The quantitative predictors include mpg, cylinders, displacement, horsepower, weight, acceleration, and model year, while the qualitative predictors include origin and car name. The range, mean, and standard deviation of the quantitative variables showed that weight, displacement, and horsepower have large variability, whereas model year has lower variability. After removing the 10th to 85th observations, the statistical measures changed slightly, indicating the effect of extreme values on the dataset. Scatterplots revealed that mpg has a strong negative relationship with weight, displacement, and horsepower, and a positive relationship with model year. These plots suggest that variables such as weight, horsepower, displacement, and model year are useful predictors of fuel efficiency (mpg).
 # Description
 Analyzed the Auto dataset to study how vehicle characteristics affect fuel efficiency. Cleaned the data, classified predictors, computed descriptive statistics, and used scatterplots to explore relationships. Identified key factors influencing gas mileage (mpg).
 
